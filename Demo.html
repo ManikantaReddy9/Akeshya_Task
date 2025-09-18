@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container1{
+        display: flex;
+        margin-left: 20px;
+    }
+    .container2{
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+        position: relative;
+        top: 20px;
+        font-family: sans-serif;
+        margin-right: 70px;
+        margin-top: 10px;
+        cursor: pointer;
+
+    }
+    .container2 a:hover{
+        color: blue;
+    }
+    .img1{
+        height: 80px;
+        width: 80px;
+    }
+    nav h2{
+        color: rgb(34, 34, 161);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
+    .navv{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .container3 button{
+        background-color: rgb(34, 34, 161);
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        position: relative;
+        bottom: 10px;
+        font-size: 14px;
+    }
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+    }
+    .imgh{
+        height: 450px;
+        width: 450px;
+    }
+    .hero h2{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(34, 34, 161);
+        font-size: 50px;
+    }
+    .hero p{
+        font-size: 25px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 300;
+    }
+    .hero button{
+        font-size: 25px;
+        border-radius: 20px;
+    }
+    
+</style>
+<body>
+    <header>
+        <nav class="navv" >
+            <div class="container1">
+                <img class="img1" src="./assets/Ak_logo.png" />
+                <h2 class="akk">Akeshya</h2>
+            </div>
+            <div class="container2">
+                <a>Home</a>
+                <a>About</a>
+                <a>Carrers</a>
+                <a>Services</a>
+                <div class="container3">
+                <button>Contact Us</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="hero">
+        <div>
+            <h2>Grow your business with<br>Akeshya</h2>
+            <p>We are a leading provider of software development, SAP<br>and ERP integration, and IT support services,<br> empowering businesses to optimize operations and<br> achieve growth</p>
+            <button>Get Started</button>
+        </div>
+
+        <div>
+            <img class="imgh" src="./assets/hero-img.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
